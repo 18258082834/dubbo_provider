@@ -24,7 +24,7 @@ public class SpringbootTestApplication {
 	@GetMapping("/index")
 	String index(){
 		String a = environment.getProperty("name");
-		return "name:"+environment.getProperty("name");
+		return "哈哈哈啊，jenkins总算搭建完了@！！！！！,name:"+environment.getProperty("name");
 	}
 
 	public static void main(String[] args) {
